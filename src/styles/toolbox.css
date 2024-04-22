@@ -1,0 +1,67 @@
+@config "../../tailwind.tb.config.ts";
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  :root {
+    --tb-background: 0 0% 100%;
+    --tb-foreground: 222.2 84% 4.9%;
+
+    --tb-card: 0 0% 100%;
+    --tb-card-foreground: 222.2 84% 4.9%;
+
+    --tb-popover: 0 0% 100%;
+    --tb-popover-foreground: 222.2 84% 4.9%;
+
+    --tb-primary: 171 15% 50%;
+    --tb-primary-foreground: 210 40% 98%;
+
+    --tb-secondary: 210 40% 96.1%;
+    --tb-secondary-foreground: 222.2 47.4% 11.2%;
+
+    --tb-muted: 210 40% 96.1%;
+    --tb-muted-foreground: 215.4 16.3% 46.9%;
+
+    --tb-accent: 210 40% 96.1%;
+    --tb-accent-foreground: 222.2 47.4% 11.2%;
+
+    --tb-destructive: 0 84.2% 60.2%;
+    --tb-destructive-foreground: 210 40% 98%;
+
+    --tb-border: 214.3 31.8% 91.4%;
+    --tb-input: 214.3 31.8% 91.4%;
+    --tb-ring: 222.2 84% 4.9%;
+
+    --tb-radius: 0.5rem;
+  }
+
+  .dark {
+    --tb-background: 222.2 84% 4.9%;
+    --tb-foreground: 210 40% 98%;
+
+    --tb-card: 222.2 84% 4.9%;
+    --tb-card-foreground: 210 40% 98%;
+
+    --tb-popover: 222.2 84% 4.9%;
+    --tb-popover-foreground: 210 40% 98%;
+
+    --tb-primary: 210 40% 98%;
+    --tb-primary-foreground: 222.2 47.4% 11.2%;
+
+    --tb-secondary: 217.2 32.6% 17.5%;
+    --tb-secondary-foreground: 210 40% 98%;
+
+    --tb-muted: 217.2 32.6% 17.5%;
+    --tb-muted-foreground: 215 20.2% 65.1%;
+
+    --tb-accent: 217.2 32.6% 17.5%;
+    --tb-accent-foreground: 210 40% 98%;
+
+    --tb-destructive: 0 62.8% 30.6%;
+    --tb-destructive-foreground: 210 40% 98%;
+
+    --tb-border: 217.2 32.6% 17.5%;
+    --tb-input: 217.2 32.6% 17.5%;
+    --tb-ring: 212.7 26.8% 83.9%;
+  }
+}
